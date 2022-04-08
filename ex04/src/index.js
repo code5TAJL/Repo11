@@ -1,6 +1,6 @@
-// Create a myPetsArray array here
+// Create a temps array here
 
-// End of myPetsArray array
+// End of temps array
 // Create a function below this line
 
 // End of creating a function
