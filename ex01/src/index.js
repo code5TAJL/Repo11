@@ -12,9 +12,3 @@ function myArrayFunction(myItems) {
 console.log(myArrayFunction(myArr));  // Change this line
 // End of creating a function
 module.exports = myArrayFunction;
-
-
-
-
-
-module.exports = myArrayFunction;
