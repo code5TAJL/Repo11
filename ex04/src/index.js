@@ -8,18 +8,15 @@ var temps = [
 ];
 // End of temps array
 // Create a function below this line
-function myArrayFunction(arr) {
-    var newTemps = [...arr];
+function myArrayFunction(temps) {
     var averageDayTemp = [];
 
     for (i = 0; i < temps.length; i++) {                                                          
-            for (y = 0; y < 4; y++) {
-                newTemps = newTemps[i][y] + temps;
-                newTemps[i][y];
-                averageDayTemp = newTemps[i][y]/4;
-            }
-
-
+        var sum = 0;
+        for(var j=0; j < temps[i].length; j++){
+            sum+= temps[i][j];
+        }
+        averageDayTemp.push(sum/4);
     }
     return averageDayTemp;
 
